@@ -1,0 +1,17 @@
+﻿using CSharpEgitimKampi301.EntitiyLayer.Concrete;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CSharpEgitimKampi301.DataAccessLayer.Abstract
+{
+    public interface ICategoryDal:IGenericDal<Category>
+    {
+        // Buraya Category'e özel metotlar yazılabilir.
+        // Örneğin: List<Category> GetCategoriesByParentId(int parentId);
+    }
+    
+    
+}
